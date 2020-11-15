@@ -1,0 +1,166 @@
+[debug] [2020-11-15T01:02:55.368Z] ----------------------------------------------------------------------
+[debug] [2020-11-15T01:02:55.371Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Anne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-15T01:02:55.371Z] CLI Version:   8.16.2
+[debug] [2020-11-15T01:02:55.371Z] Platform:      win32
+[debug] [2020-11-15T01:02:55.371Z] Node Version:  v14.15.0
+[debug] [2020-11-15T01:02:55.373Z] Time:          Sat Nov 14 2020 17:02:55 GMT-0800 (Pacific Standard Time)
+[debug] [2020-11-15T01:02:55.373Z] ----------------------------------------------------------------------
+[debug] [2020-11-15T01:02:55.373Z] 
+[debug] [2020-11-15T01:02:55.381Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-15T01:02:55.381Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Anne\Desktop\IEEE Fall QP 2020
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-11-15T01:03:06.038Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-11-15T01:03:06.369Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:06 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project ieee-fall-20-qp (IEEE Fall 20 QP) 
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2020-11-15T01:03:10.097Z] >>> HTTP REQUEST GET https://ieee-fall-20-qp.firebaseio.com/.settings/rules.json  
+ 
+[debug] [2020-11-15T01:03:10.486Z] <<< HTTP RESPONSE 200 {"server":"nginx","date":"Sun, 15 Nov 2020 01:03:10 GMT","content-type":"application/json; charset=utf-8","content-length":"161","connection":"keep-alive","access-control-allow-origin":"*","cache-control":"no-cache","strict-transport-security":"max-age=31556926; includeSubDomains; preload"}
+[info] +  Database Rules for ieee-fall-20-qp have been downloaded to database.rules.json. 
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Firestore Setup
+[debug] [2020-11-15T01:03:10.493Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/ieee-fall-20-qp/services/firestore.googleapis.com  
+ 
+[debug] [2020-11-15T01:03:11.035Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:11 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:03:11.036Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/ieee-fall-20-qp  
+ 
+[debug] [2020-11-15T01:03:11.352Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:11 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:03:11.353Z] database_type: CLOUD_FIRESTORE
+[debug] [2020-11-15T01:03:11.355Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-15T01:03:11.357Z] > authorizing via signed-in user
+[debug] [2020-11-15T01:03:11.358Z] [iam] checking project ieee-fall-20-qp for permissions ["firebase.projects.get"]
+[debug] [2020-11-15T01:03:11.361Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieee-fall-20-qp:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-11-15T01:03:11.793Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=180","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2020-11-15T01:03:14.114Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/ieee-fall-20-qp/releases?pageSize=10&pageToken=  
+ 
+[debug] [2020-11-15T01:03:14.555Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:03:14.556Z] Found ruleset: projects/ieee-fall-20-qp/rulesets/07b9fed3-d31e-4c4a-bc4d-9c598040f75e
+[debug] [2020-11-15T01:03:14.558Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/ieee-fall-20-qp/rulesets/07b9fed3-d31e-4c4a-bc4d-9c598040f75e  
+ 
+[debug] [2020-11-15T01:03:14.889Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2020-11-15T01:03:17.114Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/ieee-fall-20-qp/databases/(default)/collectionGroups/-/indexes  
+ 
+[debug] [2020-11-15T01:03:17.115Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/ieee-fall-20-qp/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false  
+ 
+[debug] [2020-11-15T01:03:17.348Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:03:17.366Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2020-11-15T01:03:17.383Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-15T01:03:17.385Z] > authorizing via signed-in user
+[debug] [2020-11-15T01:03:17.385Z] [iam] checking project ieee-fall-20-qp for permissions ["firebase.projects.get"]
+[debug] [2020-11-15T01:03:17.385Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieee-fall-20-qp:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-11-15T01:03:17.526Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=59","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:03:17.529Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/ieee-fall-20-qp/services/cloudfunctions.googleapis.com:enable  
+ 
+[debug] [2020-11-15T01:03:17.530Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/ieee-fall-20-qp/services/runtimeconfig.googleapis.com:enable  
+ 
+[debug] [2020-11-15T01:03:17.936Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:03:17.942Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:03:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/.eslintrc.json 
+[info] +  Wrote functions/index.js 
+[info] +  Wrote functions/.gitignore 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-11-15T01:04:29.616Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-11-15T01:04:29.693Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","cross-origin-resource-policy":"cross-origin","content-length":"1411","date":"Sun, 15 Nov 2020 00:42:34 GMT","expires":"Sun, 15 Nov 2020 01:32:34 GMT","last-modified":"Fri, 13 Nov 2020 00:33:17 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"1315","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\Anne\Desktop\IEEE Fall QP 2020 is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=283403105&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-11-15T01:04:32.456Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"448b74beb535bd121539","redirect_uri":"http://localhost:9005","state":"283403105"}
+[debug] [2020-11-15T01:04:32.813Z] <<< HTTP RESPONSE 200 {"date":"Sun, 15 Nov 2020 01:04:33 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","server":"GitHub.com","status":"200 OK","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding","etag":"W/\"f5b19d9fb1eecd8ab974b6ebc4767b14\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker.js gist.github.com/socket-worker.js","x-github-request-id":"EED1:5CA2:6E62AA:97A76D:5FB07EA0"}
+[debug] [2020-11-15T01:04:32.814Z] >>> HTTP REQUEST GET https://api.github.com/user  
+ 
+[debug] [2020-11-15T01:04:33.209Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sun, 15 Nov 2020 01:04:33 GMT","content-type":"application/json; charset=utf-8","content-length":"1397","status":"200 OK","cache-control":"private, max-age=60, s-maxage=60","vary":"Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With","etag":"\"f38f9368a6893378272081b865218d08404ed927f01c57fd0ce90dba1dec21cc\"","last-modified":"Sun, 15 Nov 2020 00:56:11 GMT","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4999","x-ratelimit-reset":"1605405873","x-ratelimit-used":"1","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","x-github-request-id":"EED5:6A8C:595EFA:E9C602:5FB07EA1"}
+[info] 
+[info] +  Success! Logged into GitHub as anne118193 
+[info] 
+[debug] [2020-11-15T01:04:57.637Z] >>> HTTP REQUEST GET https://api.github.com/repos/IEEE-FA20-QP/actions/secrets/public-key?type=owner  
+ 
+[debug] [2020-11-15T01:04:57.913Z] <<< HTTP RESPONSE 404 {"date":"Sun, 15 Nov 2020 01:04:58 GMT","content-type":"application/json; charset=utf-8","content-length":"74","server":"GitHub.com","status":"404 Not Found","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"repo","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4998","x-ratelimit-reset":"1605405873","x-ratelimit-used":"2","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","vary":"Accept-Encoding, Accept, X-Requested-With","x-github-request-id":"EEE3:348F:30FBD5:3A8B74:5FB07EB9"}
+[debug] [2020-11-15T01:04:57.913Z] <<< HTTP RESPONSE BODY Not Found {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2020-11-15T01:05:57.686Z] >>> HTTP REQUEST GET https://api.github.com/repos/anne118193/IEEE-FA20-QP/actions/secrets/public-key?type=owner  
+ 
+[debug] [2020-11-15T01:05:58.049Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sun, 15 Nov 2020 01:05:58 GMT","content-type":"application/json; charset=utf-8","content-length":"84","status":"200 OK","cache-control":"private, max-age=60, s-maxage=60","vary":"Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With","etag":"\"395c9be1140f19c64d52807a534acece075a24ff10ffcf23088ae06f3d9763d6\"","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4997","x-ratelimit-reset":"1605405873","x-ratelimit-used":"3","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","x-github-request-id":"EEF8:6107:30F2A4:894BC5:5FB07EF6"}
+[debug] [2020-11-15T01:05:58.057Z] >>> HTTP REQUEST GET https://api.github.com/repos/anne118193/IEEE-FA20-QP  
+ 
+[debug] [2020-11-15T01:05:58.418Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sun, 15 Nov 2020 01:05:58 GMT","content-type":"application/json; charset=utf-8","content-length":"5208","status":"200 OK","cache-control":"private, max-age=60, s-maxage=60","vary":"Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With","etag":"\"2c89c221da0198036c329b840362d614bfc2b03daf8c9a91b9a89731e1df1fa4\"","last-modified":"Sun, 15 Nov 2020 01:02:33 GMT","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"repo","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4996","x-ratelimit-reset":"1605405873","x-ratelimit-used":"4","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","x-github-request-id":"EEF9:4472:180CA05:2713168:5FB07EF6"}
+[debug] [2020-11-15T01:05:58.429Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/ieee-fall-20-qp/serviceAccounts  
+ {"accountId":"github-action-312932191","serviceAccount":{"displayName":"GitHub Actions (anne118193/IEEE-FA20-QP)","description":"A service account with permission to deploy to Firebase Hosting for the GitHub repository anne118193/IEEE-FA20-QP"}}
+[debug] [2020-11-15T01:05:59.049Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:05:59 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:05:59.053Z] >>> HTTP REQUEST GET https://iam.googleapis.com/v1/projects/ieee-fall-20-qp/serviceAccounts/github-action-312932191@ieee-fall-20-qp.iam.gserviceaccount.com  
+ 
+[debug] [2020-11-15T01:05:59.054Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieee-fall-20-qp:getIamPolicy  
+ 
+[debug] [2020-11-15T01:05:59.623Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:05:59 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=292","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:05:59.787Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:05:59 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:05:59.790Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieee-fall-20-qp:setIamPolicy  
+ {"policy":{"version":1,"etag":"BwW0GoVJS8k=","bindings":[{"role":"roles/editor","members":["serviceAccount:ieee-fall-20-qp@appspot.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-vqgh6@ieee-fall-20-qp.iam.gserviceaccount.com"]},{"role":"roles/firebaserules.system","members":["serviceAccount:service-122142811344@firebase-rules.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-vqgh6@ieee-fall-20-qp.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:Anne118193@gmail.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:github-action-312932191@ieee-fall-20-qp.iam.gserviceaccount.com"]},{"role":"roles/serviceusage.apiKeysViewer","members":["serviceAccount:github-action-312932191@ieee-fall-20-qp.iam.gserviceaccount.com"]},{"role":"roles/firebasehosting.admin","members":["serviceAccount:github-action-312932191@ieee-fall-20-qp.iam.gserviceaccount.com"]},{"role":"roles/run.viewer","members":["serviceAccount:github-action-312932191@ieee-fall-20-qp.iam.gserviceaccount.com"]}]},"updateMask":"bindings"}
+[debug] [2020-11-15T01:06:01.166Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:06:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1141","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-15T01:06:01.169Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/ieee-fall-20-qp/serviceAccounts/github-action-312932191@ieee-fall-20-qp.iam.gserviceaccount.com/keys  
+ {"keyAlgorithm":"KEY_ALG_UNSPECIFIED","privateKeyType":"TYPE_GOOGLE_CREDENTIALS_FILE"}
+[debug] [2020-11-15T01:06:02.092Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 15 Nov 2020 01:06:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] +  Created service account github-action-312932191 with Firebase Hosting admin permissions. 
+[debug] [2020-11-15T01:06:02.160Z] >>> HTTP REQUEST PUT https://api.github.com/repos/anne118193/IEEE-FA20-QP/actions/secrets/FIREBASE_SERVICE_ACCOUNT_IEEE_FALL_20_QP  
+ {"encrypted_value":"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","key_id":"568250167242549743"}
+[debug] [2020-11-15T01:06:02.863Z] <<< HTTP RESPONSE 201 {"server":"GitHub.com","date":"Sun, 15 Nov 2020 01:06:03 GMT","content-type":"application/json; charset=utf-8","content-length":"2","status":"201 Created","cache-control":"private, max-age=60, s-maxage=60","vary":"Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With","etag":"\"73243e532cb88cb93eec423c57a2aa2eb3771e51ab0d49e209325bce6f61bba0\"","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4995","x-ratelimit-reset":"1605405873","x-ratelimit-used":"5","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","x-github-request-id":"EEFF:6A8E:171D547:25AE808:5FB07EFA"}
+[info] +  Uploaded service account JSON to GitHub as secret FIREBASE_SERVICE_ACCOUNT_IEEE_FALL_20_QP. 
+[info] i  You can manage your secrets at https://github.com/anne118193/IEEE-FA20-QP/settings/secrets. 
+[info] 

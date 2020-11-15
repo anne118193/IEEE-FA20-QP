@@ -1,0 +1,133 @@
+ul 
+{
+  list-style-type: none;
+}
+body 
+{
+  font-family: Verdana, sans-serif;
+}
+/*navbar*/
+.navbar
+{
+  background-color: black;
+  width: 100%;
+  padding: 5%;
+}
+
+.sign_out
+{
+  position: absolute;
+  right: 5%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.login
+{
+  position: absolute;
+  right: 2%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+/* Month header */
+.month 
+{
+  padding: 5%;
+  width: 100%;
+  background: #4CAF50;
+  text-align: center;
+}
+
+/* Month list */
+.month ul 
+{
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li 
+{
+  color: white;
+  font-size: 150%;
+  text-transform: uppercase;
+  letter-spacing: 10%;
+}
+
+/* Previous button inside month header */
+.month .prev 
+{
+  display: inline-flex;
+  position: absolute;
+  left: 15%;
+  /*padding-bottom: 5%;
+  padding-left: 10%;*/
+  background-color: transparent;
+  border: none;
+  font-size: 150%;
+  color: white;
+}
+
+/* Next button */
+.month .next 
+{
+  display: inline-flex;
+  position: absolute;
+  right: 11%;
+  /*padding-bottom: 5%;
+  padding-right: 10%;*/
+  background-color: transparent;
+  border: none;
+  font-size: 150%;
+  color: white;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays 
+{
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#ddd;
+  width: 100%;
+}
+
+.weekdays li 
+{
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days */
+.days 
+{
+  margin: 0;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #eee;
+  width: 100%;
+}
+
+.days li 
+{
+  list-style-type: none;
+  display: inline-block;
+  width: 13.5%;
+  text-align: center;
+  margin-bottom: 5%;
+  font-size:100%;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active 
+{
+  padding: 5%;
+  background: #1abc9c;
+  color: white !important
+}

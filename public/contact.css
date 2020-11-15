@@ -1,0 +1,27 @@
+.whole_thing
+{
+	margin: 0;
+	background-color: #4CAF50;
+	color: white;
+}
+.title
+{
+	text-align: center;
+}
+.left
+{
+	display: inline-flex;
+	text-align: left;
+	/*margin-left: 25%;*/
+	position: relative;
+	padding-left: 28%;
+}
+.right
+{
+	display: inline-flex;
+	text-align: right;
+	/*margin-right: 25%;*/
+	position: relative;
+	padding-left: 35%
+}
+
