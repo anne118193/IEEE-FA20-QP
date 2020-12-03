@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name = "description" content = "World Hunger Info"/>
+	<title> Dear Pressure | Calendar </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/main.js"></script>
+    <link rel="icon" href="../images/whi.jpg"> 
+</head>
+	<body>
+     
+        <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+    
+.topcorner{
+   position:absolute;
+   top:0;
+   right:10;
+  }
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+    <div class = "topcorner">
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="../images/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
+
+        <!-- LOGIN BUTTON END -->
+        
+        <header><h1>Dear Pressure</h1><nav><nav><nav>
+            <a href = "index.html">Home</a>
+            <a href = "/pages/calendar.html">Calendar</a>
+            <a href = "/pages/contact.html">Social + Contact</a>
+            </nav> <br> </nav></nav></header> 
+         
+<!-- above is <br>, which I am using as one of the HTML tags not used in the book -->   
+ 
+<div class="container1"> <div class ="img">
+<img src = "../images/newimg.png" style= "width: 100%;"></div> 
+ <div class="centered"><h8 class = "uppercase">About&nbsp;&nbsp;&nbsp;</h8></div></div>  
+    
+<br><br><noscript>Sorry, your browser does not support JavaScript!</noscript>  
+            
+     <section id = "Section 1">
+         <p class = "p" id = "myP"> Hunger affects lots of people. It affects people who are poor or homeless, people who have suffered from natural disasters, and people who live in places where no food is available. Hunger can affect anyone, but it mainly affects people in poorer countries.</p>
+
+            <p class = "p" id = "myP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus urna nulla, euismod at semper sit amet, cursus ut tortor. Curabitur nec volutpat urna. Nam auctor risus venenatis bibendum ullamcorper. Nullam risus ex, dictum vitae eleifend et, fringilla a odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut dolor vel lectus rutrum eleifend. Donec eget suscipit lorem. Suspendisse nec gravida justo. Nunc diam leo, tempor in lacinia pellentesque, pulvinar et enim. Praesent a sodales nisl. Proin aliquam, orci ac mollis bibendum, nunc mi dignissim turpis, vel consequat dolor tellus sit amet metus. Sed in mi nec lacus bibendum vehicula.</p>
+            
+            <p class = "p" id = "myP"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus urna nulla, euismod at semper sit amet, cursus ut tortor. Curabitur nec volutpat urna. Nam auctor risus venenatis bibendum ullamcorper. Nullam risus ex, dictum vitae eleifend et, fringilla a odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut dolor vel lectus rutrum eleifend. Donec eget suscipit lorem. Suspendisse nec gravida justo. Nunc diam leo, tempor in lacinia pellentesque, pulvinar et enim. Praesent a sodales nisl. Proin aliquam, orci ac mollis bibendum, nunc mi dignissim turpis, vel consequat dolor tellus sit amet metus. Sed in mi nec lacus bibendum vehicula.</p>
+         
+            <p class = "p" id = "myP"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus urna nulla, euismod at semper sit amet, cursus ut tortor. Curabitur nec volutpat urna. Nam auctor risus venenatis bibendum ullamcorper. Nullam risus ex, dictum vitae eleifend et, fringilla a odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut dolor vel lectus rutrum eleifend. Donec eget suscipit lorem. Suspendisse nec gravida justo. Nunc diam leo, tempor in lacinia pellentesque, pulvinar et enim. Praesent a sodales nisl. Proin aliquam, orci ac mollis bibendum, nunc mi dignissim turpis, vel consequat dolor tellus sit amet metus. Sed in mi nec lacus bibendum vehicula.</p><br>
+         
+            <p class = "p" id = "myP"> <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus urna nulla, euismod at semper sit amet, cursus ut tortor. Curabitur nec volutpat urna. Nam auctor risus venenatis bibendum ullamcorper. Nullam risus ex, dictum vitae eleifend et, fringilla a odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut dolor vel lectus rutrum eleifend. Donec eget suscipit lorem. Suspendisse nec gravida justo. Nunc diam leo, tempor in lacinia pellentesque, pulvinar et enim. Praesent a sodales nisl. Proin aliquam, orci ac mollis bibendum, nunc mi dignissim turpis, vel consequat dolor tellus sit amet metus. Sed in mi nec lacus bibendum vehicula.</b></p><br>
+        
+         
+
+      
+<!--
+         <div id = "AddToThisElement"><p> <b>Try The Below Buttons!</b></p></div>
+         
+        <br><button onclick="insertFunc3()" class="obutton">Click Here</button><br>
+         
+
+         
+        <br><button type="button" onclick="uppercase()" class="obutton">Importance Letter Captilization Button</button>
+         
+        
+         
+        <br><br><button onclick="attyChange()" class="obutton">I Like Orange</button> <br>
+         
+        <script>
+            function uppercase() {
+            document.getElementById("myP").style.textTransform = "capitalize";} 
+            
+            function attyChange() {
+            document.getElementById("myP").className = "orange";}
+            
+            function insertFunc3() {
+            var elementToBeAddedTo = document.getElementById("AddToThisElement");
+            elementToBeAddedTo.insertAdjacentHTML('afterend', '<div>To learn more about World Hunger, visit the sites on the bottom of this page! </div>')}
+         
+         </script>
+         
+         <br><br><center><li>https://en.wikipedia.org/wiki/Hunger</li><br>
+         <li>https://www.worldhunger.org/world-hunger-and-poverty-facts-and-statistics/</li></center><br>
+        -->
+        
+    <center> <footer><hr><nav>
+            <a href = "index.html">Home</a>
+            <a href = "/pages/calendar.html">Calendar</a>
+            <a href = "/pages/contact.html">Social + Contact</a>
+            </nav><br>  </footer>
+	   <footer id = "cyantitle"> Copyright E = MC Awesome Enterprises &copy; 2020 </footer>
+         </center></section></body></html>
