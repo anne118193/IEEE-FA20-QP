@@ -8,7 +8,7 @@ const functions = require('firebase-functions');
 //   response.send("Hello from Firebase!");
 // });
 // this the firebase functions setup code
-const functions = require('firebase-functions');
+//const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 let Promise = require('promise');
 const cors = require('cors')({ origin: true });
