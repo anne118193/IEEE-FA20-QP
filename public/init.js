@@ -1,6 +1,6 @@
 // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
 var firebaseConfig = {
-  apiKey: "V4sPwQ.6UspKg",
+  apiKey: "AIzaSyAd8tvilyjZlhr9f4bk7o-ZuJzFUOUnwEk",
   authDomain: "ieee-fall-20-qp.firebaseapp.com",
   databaseURL: "https://ieee-fall-20-qp.firebaseio.com",
   projectId: "ieee-fall-20-qp",
