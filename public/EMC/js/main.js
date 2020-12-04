@@ -102,6 +102,28 @@ function noice() {
 function removiolidiv(){
     var elementToRemove = document.getElementById("RemoveThisDiv");
     elementToRemove.remove();}
+
+firebase.auth().createUserWithEmailAndPassword(email, password)
+  .then((user) => {
+    // Signed in 
+    // ...
+  })
+  .catch((error) => {
+    var errorCode = error.code;
+    var errorMessage = error.message;
+    // ..
+  });
+
+firebase.auth().signInWithEmailAndPassword(email, password)
+  .then((user) => {
+    // Signed in 
+    // ...
+  })
+  .catch((error) => {
+    var errorCode = error.code;
+    var errorMessage = error.message;
+  });
+
  
 /*
 function changeText(){
